@@ -1,48 +1,28 @@
-# ContaClara
+#  ContaClara
 
-Aplicação de controle financeiro pessoal construída com React e TypeScript.
+**Clareza e organização para suas finanças.**
 
-## Requisitos
+O ContaClara é um dashboard financeiro desenvolvido para facilitar a visualização e a organização das finanças pessoais, combinando uma interface moderna com uma experiência de uso intuitiva.
 
-- Node.js e npm
+##  Funcionalidades
 
-## Executar localmente
+-  Dashboard para acompanhamento financeiro.
+-  Interface voltada à organização de receitas e despesas.
+-  Design moderno, com foco na clareza visual e na usabilidade.
+-  Projeto com possibilidade de evolução para diferentes tamanhos de tela.
 
-Instale as dependências:
+##  Tecnologias usadas
 
-```powershell
-npm install
-```
+- **React** — construção da interface.
+- **TypeScript** — tipagem estática e maior confiabilidade do código.
+- **Vite** — ferramentas de desenvolvimento e compilação.
+- **CSS** — estilização e organização visual.
 
-Inicie o app:
+##  Objetivo do projeto
 
-```powershell
-npm start
-```
+O ContaClara foi criado como um projeto prático de desenvolvimento Front-End, com o objetivo de aplicar conhecimentos em React, TypeScript e construção de interfaces modernas.
 
-O comando compila a aplicação com esbuild, serve os arquivos estáticos e mostra no terminal o endereço local. Use `Ctrl+C` para encerrar.
+## 🚀 Demonstração
 
-Para gerar somente os arquivos de produção:
+🔗 **Acesse o ContaClara:** [Adicionar URL pública aqui](https://github.com/)
 
-```powershell
-npm run build
-```
-
-Os arquivos prontos ficam na pasta `dist/` e podem ser publicados em qualquer servidor de arquivos estáticos.
-
-## Publicar no GitHub Pages
-
-1. Crie um repositório no GitHub e envie o projeto para a branch `main`.
-2. No repositório, abra **Settings > Pages** e escolha **GitHub Actions** como fonte de publicação.
-3. A cada envio para `main`, o workflow `.github/workflows/deploy.yml` compila e publica o site.
-
-Para um repositório de projeto, o endereço será `https://<usuario>.github.io/<repositorio>/`. Para um repositório chamado `<usuario>.github.io`, o site será publicado na raiz `https://<usuario>.github.io/`.
-
-O código-fonte ficará visível se o repositório for público. Os lançamentos financeiros não são enviados pelo deploy: permanecem no armazenamento local do navegador de cada pessoa.
-
-## Verificações
-
-```powershell
-npm run typecheck
-npm run lint
-```
